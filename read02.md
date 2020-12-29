@@ -82,5 +82,18 @@ console.log(jim.getUserStats());
 
 `
 
+- Ecosystem :  is a collection of software packages, libraries, and other resources that facilitate development as they integrate with each other. Those tools are created by different developers and providers – for example, the React library is powered by Facebook, while the Angular framework was created by Google, and Vue.js was designed by an independent developer.
+
+
+- Node.js:is an open-source, cross-platform, back-end, JavaScript runtime environment that executes JavaScript code outside a web browser. Node.js lets developers use JavaScript.
+
+- V8 Engine : is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node.js, among others. It implements ECMAScript and WebAssembly.
+
+
+
+
+
+
+
 
 
