@@ -31,3 +31,18 @@
 
 
 
+# OSI Model:
+- it consists of 7 layers: 
+  1. Application Layer: it means that the application is using the internet and it uses the protocols for transfaming data.
+    - It has 
+  2. presentation Layer: is the layar of the data where it is being 
+  3. Session Layer.
+  4. Transport Layer.
+  5. Network Layer.
+  6. Data Link Layer.
+  7. physical
+
+# Transmission Control Protocol
+- TCP/IP stands for Transmission Control Protocol/Internet Protocol.
+- TCP/IP is a set of standardized rules that allow computers to communicate on a network such as the internet
+- It process is called as Handshake because we are sending to the device and asking it if it is ready to listen , then the second device will sebd yes with ACK, at that step the first sends data with ACK .
