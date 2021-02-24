@@ -1,0 +1,12 @@
+# Cutom Hooks:
+- A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks
+- Building your own Hooks lets you extract component logic into reusable functions.
+- Hooks are great for dealing with certain types of application state.
+- We cannot use 'async' keyword with 'useEffect' callback method. It will result in race conditions.
+- If your update function returns the exact same value as the current state, the subsequent rerender will be skipped completely.
+- If you update a State Hook to the same value as the current state, React will bail out without rendering the children or firing effects
+- Unlike componentDidMount and componentDidUpdate, the function passed to useEffect fires after layout and paint, during a deferred event. This makes it suitable for the many common side effects, like setting up subscriptions and event handlers, because most types of work shouldn’t block the browser from updating the screen.
+- Although useEffect is deferred until after the browser has painted, it’s guaranteed to fire before any new renders. React will always flush a previous render’s effects before starting a new update.
+- Custom Hooks are a convention that naturally follows from the design of Hooks, rather than a React feature.
+- Custom Hooks are a mechanism to reuse stateful logic (such as setting up a subscription and remembering the current value), but every time you use a custom Hook, all state and effects inside of it are fully isolated.
+- 
